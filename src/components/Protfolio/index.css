@@ -1,0 +1,121 @@
+.bg-container {
+  background: linear-gradient(180deg, #373e44 -100%, #191b1f 100%);
+  box-shadow: 10px 10px 40px 10px #00000080;
+  height: 110vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 790px) {
+  .bg-container {
+    height: 170vh;
+  }
+  .buttonContainer{
+    width: 100%;
+  }
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  width: 40vw;
+  height: 50px;
+  border-radius: 14px;
+  text-align: center;
+}
+.img {
+  margin: 20px;
+}
+.unActive {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  background-color: transparent;
+  border-width: 0px;
+  border: 0px;
+  margin: 20px;
+  position: relative;
+}
+.active {
+  background: linear-gradient(#373e44, #191b1f);
+  height: 36px;
+  width: 140px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  border-width: 0px;
+  border: 0px;
+  margin: 20px;
+  position: relative;
+}
+.containerbuttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 2000px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emptyContainer {
+  background: #616161d1;
+  border: 1px solid #96bee7;
+  border-radius: 20px;
+  height: 75vh;
+  width: 40vw;
+  margin: 30px;
+}
+
+.ProtfolioContainer {
+  background: #363c43;
+  box-shadow: 5.67px 5.67px 3.78px 0px #00000066;
+  height: 36vh;
+  width: 48vw;
+  margin: 20px;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  overflow-y: scroll;
+  scrollbar-color: #969696 transparent;
+  scrollbar-width: thin;
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+}
+.ProtfolioContainer1 {
+  background: #363c43;
+  box-shadow: 5.67px 5.67px 3.78px 0px #00000066;
+  height: 40vh;
+  width: 48vw;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+}
+.paragraph {
+  color: #969696;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: normal;
+  padding-top: 30px;
+  padding-left: 10px;
+}
